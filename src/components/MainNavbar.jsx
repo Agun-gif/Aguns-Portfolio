@@ -13,7 +13,7 @@ function MainNavbar() {
       {/* Desktop Navbar */}
       <div className="hidden md:flex justify-center">
         <div className="fixed top-4 flex gap-4 px-2 py-2 bg-opacity-50 border border-gray-700 items-center backdrop-blur-3xl">
-          <NavLink to="index.html" className="text-[#EDD6B6] text-sm">
+          <NavLink to="homepage" className="text-[#EDD6B6] text-sm">
             Agun.
           </NavLink>
           <NavLink to="Service" className="text-[#EDD6B6] text-sm">
@@ -22,7 +22,7 @@ function MainNavbar() {
           <NavLink to="Work" className="text-[#EDD6B6] text-sm">
             WORK
           </NavLink>
-          <NavLink to="blog.html" className="text-[#EDD6B6] text-sm">
+          <NavLink to="blog" className="text-[#EDD6B6] text-sm">
             BLOG
           </NavLink>
           <NavLink to="pricing.html" className="text-[#EDD6B6] text-sm">
