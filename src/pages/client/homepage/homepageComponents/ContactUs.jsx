@@ -27,7 +27,7 @@ function ContactUs() {
             </div>
             <div className="flex justify-center">
               <a
-                href="contact.html"
+                href="Contact"
                 className="border bg-[#edd6b6] rounded-lg px-6 py-3 mt-6 text-black flex items-center hover:bg-[#d4b38e] transition-all"
               >
                 GET IN TOUCH

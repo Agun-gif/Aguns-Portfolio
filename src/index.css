@@ -8,3 +8,32 @@ body, html {
     color: white;
   }
   
+  @keyframes slide {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-slide {
+    display: flex;
+    animation: slide 10s linear infinite;
+  }
+
+  @keyframes slide {
+    from {
+      transform: translateX(50%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-slide {
+    display: flex;
+    white-space: nowrap;
+    animation: slide 10s linear infinite;
+  }
+  

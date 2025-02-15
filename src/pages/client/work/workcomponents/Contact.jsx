@@ -28,7 +28,7 @@ const Contact = () => {
             <div className="flex justify-center">
               <a
                 className="border bg-[#edd6b6] rounded-lg px-4 py-2 mt-6 text-black flex items-center"
-                href="contact.html"
+                href="Contact"
               >
                 <button className="text-sm sm:text-base">
                   GET IN TOUCH

@@ -1,30 +1,18 @@
-import React from 'react';
+import React from "react";
 
-function SliedSection() {
+function SlideSection() {
   return (
-    <div>
-      {/* <!-- slide scroll start --> */}
-      <section>
-        <div className="overflow-hidden w-full border-y-2 border-[#34312C] mt-36 backdrop-blur-9xl">
-          <div className="flex whitespace-nowrap">
-            <marquee className="responsive-marquee">
-              <span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-[#edd6b6] font-extralight mx-4 px-6 py-3 text-left-blur">
-                +++.....LET'S TALK......+++.....LET'S TALK.....+++.....LET'S TALK.....+++.....LET'S TALK
-                +++.....LET'S TALK......+++.....LET'S TALK.....+++.....LET'S TALK.....+++.....LET'S TALK
-                +++.....LET'S TALK......+++.....LET'S TALK.....+++.....LET'S TALK.....+++.....LET'S TALK
-                +++.....LET'S TALK......+++.....LET'S TALK.....+++.....LET'S TALK.....+++.....LET'S TALK
-                +++.....LET'S TALK......+++.....LET'S TALK.....+++.....LET'S TALK.....+++.....LET'S TALK
-                +++.....LET'S TALK......+++.....LET'S TALK.....+++.....LET'S TALK.....+++.....LET'S TALK
-                +++.....LET'S TALK......+++.....LET'S TALK.....+++.....LET'S TALK.....+++.....LET'S TALK
-                +++.....LET'S TALK......+++.....LET'S TALK.....+++.....LET'S TALK.....+++.....LET'S TALK
-              </span>
-            </marquee>
-          </div>
-        </div>
-      </section>
-      {/* <!-- slide scroll end --> */}
+    <div className="overflow-hidden w-full border-y-2 border-gray-900 mt-36 backdrop-blur-xl">
+      <div className="flex whitespace-nowrap animate-slide">
+        <p className="text-xl text-[#edd6b6] font-extralight mx-4 px-6 py-3">
+          +++.....LET'S TALK......+++.....LET'S TALK.....+++.....LET'S TALK.....+++.....LET'S TALK
+          +++.....LET'S TALK......+++.....LET'S TALK.....+++.....LET'S TALK.....+++.....LET'S TALK
+          +++.....LET'S TALK......+++.....LET'S TALK.....+++.....LET'S TALK.....+++.....LET'S TALK
+          +++.....LET'S TALK......+++.....LET'S TALK.....+++.....LET'S TALK.....+++.....LET'S TALK
+        </p>
+      </div>
     </div>
   );
 }
 
-export default SliedSection;
+export default SlideSection;
